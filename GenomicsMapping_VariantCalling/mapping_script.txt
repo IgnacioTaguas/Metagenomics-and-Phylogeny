@@ -1,0 +1,35 @@
+#!/bin/bash
+#Reads mapping
+
+#Script that indexes a genome and then alignes any number of FASTA files with it, and gets some characteristics of the alignment.
+#It generates: 
+###A directory for the indexed genome
+###A directory for the SAM files generated, a file with statistics created while doing the alignment and another file with the same statistics obtained from the SAM alignment.
+
+#This script takes as arguments:
+###The reference genome
+###The name of the output for the indexed genome
+###Any number of triples of arguments: 
+#####The FASTA file to align
+#####The desired name for the SAM file generated
+#####The desired name for the stats file generated (the other stats file will have the same name with the prefix "command_"
+
+mkdir Indexed_genome
+mkdir reads_mapping_results
+
+ref_genome=$1
+
+bowtie2-build $ref_genome ./Indexed_genome/${ref_genome}.fai #Index the genome
+
+while [ $# -gt 1 ] #While there are still arguments
+do
+	prefix=$(echo $2 | grep -oP '.*?(?=\.)')
+	bowtie2 -x ./Indexed_genome/${ref_genome}.fai -f $2 -S ./reads_mapping_results/${prefix}.sam 2>>./reads_mapping_results/${prefix}_stats.txt
+	echo Number of reads: $(samtools view -c ./reads_mapping_results/${prefix}.sam) > ./reads_mapping_results/command_${prefix}_stats.txt
+	echo Number of unmapped reads: $(samtools view -c -f 4 ./reads_mapping_results/${prefix}.sam) >> ./reads_mapping_results/command_${prefix}_stats.txt
+	echo Number of mapped reads: $(samtools view -b -c -F 4 ./reads_mapping_results/${prefix}.sam) >> ./reads_mapping_results/command_${prefix}_stats.txt
+	echo Number of reads mapped exactly once: $(samtools view -F 4 ./reads_mapping_results/${prefix}.sam | grep -v 'XS:' | wc -l) >> ./reads_mapping_results/command_${prefix}_stats.txt
+	echo Number of reads mapped more than once: $(grep 'XS:' ./reads_mapping_results/${prefix}.sam | wc -l) >> ./reads_mapping_results/command_${prefix}_stats.txt
+	#"Erase" the argument we just used
+	shift 
+done

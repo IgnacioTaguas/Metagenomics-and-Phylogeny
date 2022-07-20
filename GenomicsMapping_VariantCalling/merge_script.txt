@@ -1,0 +1,29 @@
+#!/bin/bash
+#Merge
+
+#Script that takes any number of pairs of sam files, transforms them to bam, shorts them and then merges them in a new file.
+#All the files generated are stored in a new directory called Variant_calling
+
+mkdir Variant_calling
+
+#Function that takes a sam file, and creates its bam version and its bam sorted version
+bam_sort () {
+	samtools view -bS $1 > ./Variant_calling/$2.bam
+	samtools sort ./Variant_calling/$2.bam -o ./Variant_calling/$2_sorted.bam
+	}
+
+while [ $# -gt 0 ] #While there are still arguments
+do
+	file_1=$1
+	prefix_1=$(echo $file_1 | grep -oP '.*?(?=\.)') #Takes out the .sam
+	bam_sort $file_1 $prefix_1
+	file_2=$2
+	prefix_2=$(echo $file_2 | grep -oP '.*?(?=\.)')
+	bam_sort $file_2 $prefix_2
+	prefix_3=$(echo $prefix_1 | grep -oP '.*?(?=\_)') #Takes out the number of the sample
+	#We merge the files. The -h keeps the headers of the SAM files.
+	samtools merge -h $file_1 -h $file_2 ./Variant_calling/$prefix_3.bam ./Variant_calling/${prefix_1}_sorted.bam ./Variant_calling/${prefix_2}_sorted.bam
+	#The curly braces on the previous command on ${prefix_1}_sorted.bam and ${prefix_2}_sorted.bam are so that the variable is recognized followed by underscore
+	shift
+	shift
+done 

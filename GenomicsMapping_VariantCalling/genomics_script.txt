@@ -1,0 +1,26 @@
+#!/bin/bash
+#Genomics
+
+#This script takes any number of fasta files and counts its number or reads and prints the different read lengths
+#All the information is stored in the file genomics_stats.txt
+
+mkdir genomics_results
+
+while [ $# -gt 0 ] #While there are still argument
+do
+	echo $1 number of reads: $(grep -c '^>' $1) #Print the number of reads
+	#Print different read lengths
+	echo $1 different lengths: $(awk '/^>/ { #Looks for header pattern
+		if (seqlen) { #Print the previous seqlen, if it exists
+			print seqlen
+			}
+			seqlen = 0 #Set seqlen to 0
+			next #Skip further processing
+		}
+	{ #Accumulate sequence length
+		seqlen += length($0) 
+	}
+	END{if(seqlen){print seqlen}}' $1 | uniq) #Remnantseqlen if exists and count
+	echo
+	shift #"Erase" the argument we just used
+done > ./genomics_results/genomics_stats.txt
