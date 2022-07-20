@@ -1,0 +1,35 @@
+#!/bin/bash
+#Differential expression analysis
+
+#Script that takes any number of BAM sorted files, does a read count on them, and then joins all of them.
+#The ouptut file has a first column with the name, and then each column correspond to its read counts in a file
+#All the output files are stored in a new directory called DEA
+
+#The script requires as first argument a GFF file, and then any number of sorted BAM files.
+
+mkdir DEA
+
+reference=$1
+
+while [ $# -gt 1 ] #While there are still arguments
+do
+	file=$2
+	prefix=$(echo $file | grep -oP '.*?(?=\.)') #Takes out the .bam
+	htseq-count -i Name -t gene -f bam $file $reference > ./DEA/${prefix}_count.txt
+	shift
+done
+
+cd ./DEA
+
+for f in *_count.txt
+do
+	if [ ! -f total_counts.txt ]
+	then
+		cat $f > total_counts.txt
+		continue
+	fi
+	join $f total_counts.txt > trash.txt
+	cat trash.txt > total_counts.txt
+done
+
+rm trash.txt

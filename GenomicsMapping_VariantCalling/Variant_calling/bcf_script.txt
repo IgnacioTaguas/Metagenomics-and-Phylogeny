@@ -1,0 +1,50 @@
+#!/bin/bash
+#BCF creation and analysis
+
+#Script that takes any number of BAM files, transforms them to bcf, creates a stats file, converts them to vcf, and gets through command some stats of the stats file, storing them in another file
+#Finally, it takes the variant with the highest quality and searches which gene it corresponds to.
+#The first argument must be the reference genome, the second a GFF file with the genes, and then as many sorted BAM files as we want to
+
+mkdir bcf_stats
+
+reference=$1
+genes=$2
+
+while [ $# -gt 2 ] #While there are still arguments
+do
+	file=$3
+	prefix=$(echo $file | grep -oP '.*?(?=\.)') #Takes out the .bam
+	bcftools mpileup -f $reference $file -o $prefix.bcf -O b
+	bcftools call -vc $prefix.bcf -o ${prefix}_variants.bcf -O b
+	rm $prefix.bcf
+	bcftools stats ${prefix}_variants.bcf > ./bcf_stats/${prefix}_variant_stats.txt
+	echo Number of records: $(bcftools view ${prefix}_variants.bcf | grep -v "#" | wc -l) > ./bcf_stats/command_${prefix}_variant_stats.txt
+	echo Number of variants: $(bcftools view ${prefix}_variants.bcf | grep -v "#" | cut -f4,5 | sort | uniq | wc -l) >> ./bcf_stats/command_${prefix}_variant_stats.txt
+	#We create three variables to count the number of SNPs, insertions and deletions
+	SNPs=0 #SNPs contain, on column 5, just one nucleotide
+	INSs=0 #Insertions contain, on column 5, more than one nucleotide
+	DELs=0 #Deletions contain, on column 5, a '.'
+	bcftools view ${prefix}_variants.bcf | grep -v "#" | cut -f5 | ( while read p #The parenthesis is needed to keep the three variables after the done
+		do
+			if [[ ${#p} -eq 1 ]] #If the length is 1, it can be either a deletion or a SNP
+			then if [[ $p == "." ]] #If it is a dot, then we have a deletion
+				then ((DELs=DELs+1))
+				else ((SNPs=SNPs+1))
+				fi
+			else ((INSs=INSs+1))
+			fi
+		done #We have not closed the parenthesis yet, so $SNPs, $INSs and $DELs still contain their values
+		echo Number of SNPs: $SNPs
+		echo Number of insertions: $INSs
+		echo Number of deletions: $DELs ) >> ./bcf_stats/command_${prefix}_variant_stats.txt
+	echo Number of variants with depth of coverage equal or greater than 10: $(bcftools view ${prefix}_variants.bcf | grep -v "#" | cut -f8 | tr ";" "\n" | grep "DP=" | cut -d "=" -f 2 | awk -F"\t" '$1>=10' | wc -l) >> ./bcf_stats/command_${prefix}_variant_stats.txt
+	echo Number of variants with quality equal or greater than 10: $(bcftools view ${prefix}_variants.bcf | grep -v "#" | awk -F"\t" '$6>=10' | wc -l) >> ./bcf_stats/command_${prefix}_variant_stats.txt
+	echo Position of the variant with best quality: $(bcftools view ${prefix}_variants.bcf | grep -v "#" | sort -k6gr | head -1 | cut -f2) >> ./bcf_stats/command_${prefix}_variant_stats.txt
+	pos=$(bcftools view ${prefix}_variants.bcf | grep -v "#" | sort -k6gr | head -1 | cut -f2) >> ./bcf_stats/command_${prefix}_variant_stats.txt
+	echo -e "\tCorresponding gene: $(cat $genes | awk -v pos=$pos -F"\t" 'pos<$5' | head -1 | cut -f9 | grep -oP '(?<=GeneID:).*(?=;Name)')" >> ./bcf_stats/command_${prefix}_variant_stats.txt
+	echo -e "\tReference base: $(bcftools view ${prefix}_variants.bcf | grep -v "#" | sort -k6gr | head -1 | cut -f4)" >> ./bcf_stats/command_${prefix}_variant_stats.txt
+	echo -e "\tBase of the variant: $(bcftools view ${prefix}_variants.bcf | grep -v "#" | sort -k6gr | head -1 | cut -f5)" >> ./bcf_stats/command_${prefix}_variant_stats.txt
+	echo -e "\tQuality: $(bcftools view ${prefix}_variants.bcf | grep -v "#" | sort -k6gr | head -1 | cut -f6)" >> ./bcf_stats/command_${prefix}_variant_stats.txt
+	shift
+done
+

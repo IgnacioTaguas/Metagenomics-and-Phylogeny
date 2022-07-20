@@ -1,0 +1,12 @@
+Number of records: 418
+Number of variants: 12
+Number of SNPs: 418
+Number of insertions: 0
+Number of deletions: 0
+Number of variants with depth of coverage equal or greater than 10: 81
+Number of variants with quality equal or greater than 10: 76
+Position of the variant with best quality: 135330
+	Corresponding gene: 1192825
+	Reference base: A
+	Base of the variant: C
+	Quality: 221.999
