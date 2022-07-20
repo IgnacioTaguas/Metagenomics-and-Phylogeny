@@ -1,0 +1,20 @@
+Organism /// abundance in file 1 /// abundance in file 2
+
+Pelagibacteraceae species incertae sedis [meta_mOTU_v25_13988] /// 0.2385013523 /// 0.0907761851
+
+Pelagibacteraceae species incertae sedis [meta_mOTU_v25_13493] /// 0.1743434863 /// 0.0664534531
+
+Porticoccaceae species incertae sedis [meta_mOTU_v25_13235] /// 0.0507562117 /// 0.0193465739
+
+Candidatus Aquiluna sp. IMCC13023 [ref_mOTU_v25_06613] /// 0.0484321303 /// 0.0184607116
+
+Flavobacteriaceae species incertae sedis [meta_mOTU_v25_13604] /// 0.0389481339 /// 0.0148457287
+
+Porticoccaceae species incertae sedis [meta_mOTU_v25_13179] /// 0.0343645257 /// 0.0130986102
+
+Candidatus Pelagibacter sp. IMCC9063 [ref_mOTU_v25_06494] /// 0.0342429992 /// 0.0130522884
+
+Gammaproteobacteria species incertae sedis [meta_mOTU_v25_13670] /// 0.0300194427 /// 0.0114424096
+
+Candidatus Pelagibacter ubique [ref_mOTU_v25_02016] /// 0.0252495459 /// 0.0096201687
+
