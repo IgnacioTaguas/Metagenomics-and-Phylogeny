@@ -1,5 +1,0 @@
-Number of reads: 289637
-Number of unmapped reads: 7
-Number of mapped reads: 289630
-Number of reads mapped exactly once: 287101
-Number of reads mapped more than once: 2529
