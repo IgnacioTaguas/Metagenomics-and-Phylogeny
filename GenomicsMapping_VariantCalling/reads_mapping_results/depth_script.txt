@@ -1,0 +1,21 @@
+#!/bin/bash
+#Depth
+
+#Script that takes a number of SAM files, creates their bam sorted version and a file containing the read depth of each base
+#The outputs are kept in a directory called Depth
+
+mkdir Depth
+
+ref_genome=$1
+indexed_genome=$2
+
+while [ $# -gt 0 ] #While there are still arguments
+do
+	file=$1
+	prefix=$(echo $file | grep -oP '.*?(?=\.)')
+	samtools view -bS $file > ./Depth/$prefix.bam
+	samtools sort ./Depth/$prefix.bam -o ./Depth/$prefix_sorted.bam
+	samtools depth ./Depth/$prefix_sorted.bam | awk '!($1="")' > ./Depth/$prefix.txt
+	rm ./Depth/$prefix.bam #We delete the BAM files
+	shift
+done
