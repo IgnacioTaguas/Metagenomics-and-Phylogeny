@@ -1,0 +1,12 @@
+hightemp_01.fasta number of reads: 291814
+hightemp_01.fasta different lengths: 100
+
+hightemp_02.fasta number of reads: 289637
+hightemp_02.fasta different lengths: 100
+
+normal_01.fasta number of reads: 290331
+normal_01.fasta different lengths: 100
+
+normal_02.fasta number of reads: 291324
+normal_02.fasta different lengths: 100
+
