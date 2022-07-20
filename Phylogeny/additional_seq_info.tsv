@@ -1,0 +1,176 @@
+#seqname	geneName	sp_name	lineage	gene	functional_description
+243231.Q74EJ9_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	Domains REC, sigma54 interaction, HTH8
+289376.B5YFY0_THEYD	ntrX	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	ntrX	Bacterial regulatory protein, Fis family
+224324.O66551_AQUAE	ntrX	Aquifex_aeolicus	Bacteria_Aquificae	ntrX	two component, sigma54 specific, transcriptional regulator, Fis family
+190304.Q8RGJ0_FUSNN	N/A	Fusobacterium_nucleatum	Bacteria_Fusobacteria	N/A	4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+1111708.CHLL_SYNY3	chlL	Synechocystis_sp.	Bacteria_Terrabacteria group	chlL	Component of the dark-operative protochlorophyllide reductase (DPOR) that uses Mg-ATP and reduced ferredoxin to reduce ring D of protochlorophyllide (Pchlide) to form chlorophyllide a (Chlide). This reaction is light-independent. The L component serves as a unique electron donor to the NB-component of the complex, and binds Mg-ATP
+224324.O67661_AQUAE	norR	Aquifex_aeolicus	Bacteria_Aquificae	norR	transcription factor binding
+324602.A9WDR1_CHLAA	bchX	Chloroflexus_aurantiacus	Bacteria_Terrabacteria group	bchX	TIGRFAM chlorophyllide reductase iron protein subunit X
+243231.Q749C2_GEOSL	nifH	Geobacter_sulfurreducens	Bacteria_Proteobacteria	nifH	The key enzymatic reactions in nitrogen fixation are catalyzed by the nitrogenase complex, which has 2 components the iron protein and the molybdenum-iron protein
+243231.Q74F33_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	two component, sigma54 specific, transcriptional regulator, Fis family
+208964.Q9I133_PSEAE	tyrR	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	tyrR	Sigma-54 interaction domain
+289376.B5YH04_THEYD	norR	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	norR	GAF domain
+243231.Q74BT6_GEOSL	atoC	Geobacter_sulfurreducens	Bacteria_Proteobacteria	atoC	Domains REC, sigma54 interaction, HTH8
+289376.B5YH15_THEYD	nifE	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	nifE	Nitrogenase component 1 type Oxidoreductase
+208964.Q9I572_PSEAE	tyrR	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	tyrR	ACT domain
+289376.B5YI45_THEYD	atoC	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	atoC	Bacterial regulatory protein, Fis family
+243231.Q74A66_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	response regulator
+208964.Q9HV73_PSEAE	cbrB	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	cbrB	Sigma-54 interaction domain
+224308.YQIR_BACSU	bkdR	Bacillus_subtilis	Bacteria_Terrabacteria group	bkdR	Transcriptional regulator
+243090.Q7ULD5_RHOBA	nifA	Rhodopirellula_baltica	Bacteria_PVC group	nifA	Domain present in phytochromes and cGMP-specific phosphodiesterases.
+190304.Q8RI07_FUSNN	N/A	Fusobacterium_nucleatum	Bacteria_Fusobacteria	N/A	Bacterial regulatory protein, Fis family
+324602.A9WGV4_CHLAA	dhaR	Chloroflexus_aurantiacus	Bacteria_Terrabacteria group	dhaR	PFAM sigma-54 factor interaction domain-containing protein
+224911.Q89NV3_BRADU	N/A	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	N/A	Bacterial regulatory protein, Fis family
+208964.Q9HWN4_PSEAE	acoR	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	acoR	Bacterial regulatory protein, Fis family
+251221.CHLL_GLOVI	chlL	Gloeobacter_violaceus	Bacteria_Terrabacteria group	chlL	Component of the dark-operative protochlorophyllide reductase (DPOR) that uses Mg-ATP and reduced ferredoxin to reduce ring D of protochlorophyllide (Pchlide) to form chlorophyllide a (Chlide). This reaction is light-independent. The L component serves as a unique electron donor to the NB-component of the complex, and binds Mg-ATP
+251221.Q7NM47_GLOVI	pspF	Gloeobacter_violaceus	Bacteria_Terrabacteria group	pspF	Transcriptional regulators containing an AAA-type ATPase domain and a DNA-binding domain
+224308.YPLP_BACSU	pspF	Bacillus_subtilis	Bacteria_Terrabacteria group	pspF	Transcriptional regulator
+243090.Q7UJV2_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	COG2204 Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains
+83333.TYRR_ECOLI	tyrR	Escherichia_coli	Bacteria_Proteobacteria	tyrR	Involved in transcriptional regulation of aromatic amino acid biosynthesis and transport. Modulates the expression of at least 8 unlinked operons. Seven of these operons are regulated in response to changes in the concentration of the three aromatic amino acids (phenylalanine, tyrosine and tryptophan). These amino acids are suggested to act as co-effectors which bind to the TyrR protein to form an active regulatory protein. In most cases TyrR causes negative regulation, but positive effects on the tyrP gene have been observed at high phenylalanine concentrations
+NP_213111.1	ntrX	N/A	N/A	ntrX	two component, sigma54 specific, transcriptional regulator, Fis family
+243231.Q747A4_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	Domains FehydlgC, FeS, sigma54 interaction, HTH8
+208964.G3XCV0_PSEAE	fleQ	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	fleQ	Flagellar regulatory protein FleQ
+224911.Q89IA4_BRADU	N/A	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	N/A	Sigma-54 interaction domain
+83333.NORR_ECOLI	norR	Escherichia_coli	Bacteria_Proteobacteria	norR	Required for the expression of anaerobic nitric oxide (NO) reductase, acts as a transcriptional activator for at least the norVW operon. Activation also requires sigma-54
+289376.B5YK68_THEYD	VP0514	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	VP0514	phosphorelay signal transduction system
+188937.Q8TQB5_METAC	nifH	Methanosarcina_acetivorans	Archaea_Euryarchaeota	nifH	The key enzymatic reactions in nitrogen fixation are catalyzed by the nitrogenase complex, which has 2 components the iron protein and the molybdenum-iron protein
+289376.B5YKG2_THEYD	N/A	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	N/A	phosphorelay signal transduction system
+224308.ROCR_BACSU	rocR	Bacillus_subtilis	Bacteria_Terrabacteria group	rocR	COG3829 Transcriptional regulator containing PAS, AAA-type ATPase, and DNA-binding domains
+208964.PILR_PSEAE	pilR	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	pilR	Bacterial regulatory protein, Fis family
+188937.Q8TRG1_METAC	N/A	Methanosarcina_acetivorans	Archaea_Euryarchaeota	N/A	Nitrogenase component 1 type Oxidoreductase
+208964.Q9HU59_PSEAE	glnG	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	glnG	nitrogen regulation protein
+243090.Q7UNH5_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	CheY-like receiver AAA-type ATPase and DNA-binding domains
+83333.HYFR_ECOLI	fhlA	Escherichia_coli	Bacteria_Proteobacteria	fhlA	Formate hydrogen-lyase transcriptional activator
+243231.Q74G75_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	two component, sigma54 specific, transcriptional regulator, Fis family
+243231.Q74EF9_GEOSL	glnG	Geobacter_sulfurreducens	Bacteria_Proteobacteria	glnG	response regulator
+83333.RTCR_ECOLI	rtcR	Escherichia_coli	Bacteria_Proteobacteria	rtcR	Transcriptional regulatory protein RtcR
+189518.Q8F3K2_LEPIN	ntrX	Leptospira_interrogans	Bacteria_Spirochaetes	ntrX	two component, sigma54 specific, transcriptional regulator, Fis family
+188937.Q8TJ93_METAC	nifH	Methanosarcina_acetivorans	Archaea_Euryarchaeota	nifH	The key enzymatic reactions in nitrogen fixation are catalyzed by the nitrogenase complex, which has 2 components the iron protein and the molybdenum-iron protein
+243231.Q74EC4_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	Sigma-54 factor interaction domain-containing protein
+289376.B5YHK7_THEYD	N/A	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	N/A	Sigma-54 interaction domain
+188937.Q8TH41_METAC	nifH	Methanosarcina_acetivorans	Archaea_Euryarchaeota	nifH	The key enzymatic reactions in nitrogen fixation are catalyzed by the nitrogenase complex, which has 2 components the iron protein and the molybdenum-iron protein
+224911.Q89NZ8_BRADU	acxR	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	acxR	Sigma-54 interaction domain
+224911.Q89DZ6_BRADU	MA20_04760	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	MA20_04760	Sigma-54 interaction domain
+243231.Q74GG5_GEOSL	zraR	Geobacter_sulfurreducens	Bacteria_Proteobacteria	zraR	Response regulator containing CheY-like receiver AAA-type ATPase and DNA-binding domains
+224308.ACOR_BACSU	acoR	Bacillus_subtilis	Bacteria_Terrabacteria group	acoR	COG3284 Transcriptional activator of acetoin glycerol metabolism
+226186.Q8A9X5_BACTN	zraR	Bacteroides_thetaiotaomicron	Bacteria_FCB group	zraR	COG2204 Response regulator containing CheY-like receiver AAA-type ATPase and DNA-binding domains
+208964.Q9I1C0_PSEAE	N/A	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	N/A	Sigma-54 interaction domain
+224911.Q89EF5_BRADU	tacA	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	tacA	Sigma-54 interaction domain
+83333.PRPR_ECOLI	prpR	Escherichia_coli	Bacteria_Proteobacteria	prpR	propionate catabolism operon regulatory protein
+243090.Q7UE04_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	Response regulator with CheY-like receiver, AAA-type ATPase, and DNA-binding domains
+289376.B5YL21_THEYD	atoC	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	atoC	phosphorelay signal transduction system
+243090.Q7USH9_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	COG2204 Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains
+224324.O66501_AQUAE	bkdR	Aquifex_aeolicus	Bacteria_Aquificae	bkdR	protein histidine kinase activity
+83333.GLRR_ECOLI	yfhA	Escherichia_coli	Bacteria_Proteobacteria	yfhA	Member of the two-component regulatory system GlrR GlrK that up-regulates transcription of the glmY sRNA when cells enter the stationary growth phase. Regulates glmY transcription by binding to three conserved sites in the purL-glmY intergenic region
+226186.Q8A514_BACTN	atoC	Bacteroides_thetaiotaomicron	Bacteria_FCB group	atoC	acetoacetate metabolism regulatory protein AtoC
+1111708.P74210_SYNY3	pspF	Synechocystis_sp.	Bacteria_Terrabacteria group	pspF	Sigma-54 interaction domain
+243090.Q7UJE3_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	Bacterial regulatory protein, Fis family
+289376.B5YGW3_THEYD	cbrB	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	cbrB	Sigma-54 interaction domain
+243231.Q747P8_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	Domains REC, sigma54 interaction, HTH8
+243231.Q748T6_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	Domains REC, sigma54 interaction, HTH8
+289376.B5YHF3_THEYD	N/A	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	N/A	phosphorelay signal transduction system
+208964.Q9HX06_PSEAE	acoR	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	acoR	GAF domain
+243231.Q748H1_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	Sigma-54 interaction domain
+243231.Q74D24_GEOSL	pilR	Geobacter_sulfurreducens	Bacteria_Proteobacteria	pilR	response regulator
+188937.Q8TRG4_METAC	N/A	Methanosarcina_acetivorans	Archaea_Euryarchaeota	N/A	nitrogenase component I, alpha chain
+NP_213156.1	N/A	N/A	N/A	N/A	phosphorelay signal transduction system
+224911.Q89ER9_BRADU	flbD	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	flbD	Sigma-54 interaction domain
+272561.O84474_CHLTR	atoC	Chlamydia_trachomatis	Bacteria_PVC group	atoC	Sigma-54 dependent response regulator
+224911.Q89LQ5_BRADU	glnG	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	glnG	Sigma-54 interaction domain
+208964.Q9I409_PSEAE	IV02_08980	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	IV02_08980	Bacterial regulatory protein, Fis family
+83333.ZRAR_ECOLI	zraR	Escherichia_coli	Bacteria_Proteobacteria	zraR	Member of the two-component regulatory system ZraS ZraR. When activated by ZraS it acts in conjunction with sigma-54 to regulate the expression of zraP. Positively autoregulates the expression of the zraSR operon
+515635.B8E2Z6_DICTD	N/A	Dictyoglomus_turgidum	Bacteria_Dictyoglomi	N/A	PFAM metal-dependent phosphohydrolase, HD sub domain
+289376.B5YI42_THEYD	N/A	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	N/A	Bacterial regulatory protein, Fis family
+224911.Q89W03_BRADU	N/A	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	N/A	Sigma-54 interaction domain
+188937.Q8TJ88_METAC	nifE	Methanosarcina_acetivorans	Archaea_Euryarchaeota	nifE	Belongs to the NifD NifK NifE NifN family
+243231.Q74CM0_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	two component, sigma54 specific, transcriptional regulator, Fis family
+243231.Q74BQ2_GEOSL	atoC	Geobacter_sulfurreducens	Bacteria_Proteobacteria	atoC	Bacterial regulatory protein, Fis family
+208964.Q9I1C4_PSEAE	sfnR	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	sfnR	Sigma-54 interaction domain
+243274.Q9X1R6_THEMA	N/A	Thermotoga_maritima	Bacteria_Thermotogae	N/A	transcription factor binding
+189518.Q8FA24_LEPIN	N/A	Leptospira_interrogans	Bacteria_Spirochaetes	N/A	COG2204 Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains
+324602.A9WCV4_CHLAA	N/A	Chloroflexus_aurantiacus	Bacteria_Terrabacteria group	N/A	ATP-binding region, ATPase domain protein
+122586.Q9K1K2_NEIMB	N/A	Neisseria_meningitidis	Bacteria_Proteobacteria	N/A	Response regulator receiver domain protein
+83333.PSPF_ECOLI	pspF	Escherichia_coli	Bacteria_Proteobacteria	pspF	psp operon transcriptional activator
+224324.O66502_AQUAE	N/A	Aquifex_aeolicus	Bacteria_Aquificae	N/A	transcription factor binding
+324602.A9WFK4_CHLAA	N/A	Chloroflexus_aurantiacus	Bacteria_Terrabacteria group	N/A	histidine kinase, dimerisation and phosphoacceptor region
+243231.Q74EZ8_GEOSL	ntrX	Geobacter_sulfurreducens	Bacteria_Proteobacteria	ntrX	response regulator
+243090.Q7ULP8_RHOBA	rtcR	Rhodopirellula_baltica	Bacteria_PVC group	rtcR	Regulator of RNA terminal phosphate cyclase
+188937.Q8TP84_METAC	N/A	Methanosarcina_acetivorans	Archaea_Euryarchaeota	N/A	4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+208964.Q9HX84_PSEAE	pspF	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	pspF	Sigma-54 interaction domain
+243231.Q74A84_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	Sigma-54-dependent sensor transcriptional response regulator, PAS domain-containing
+243090.Q7UEQ9_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	Bacterial regulatory protein, Fis family
+188937.Q8TJ90_METAC	nifD	Methanosarcina_acetivorans	Archaea_Euryarchaeota	nifD	TIGRFAM nitrogenase molybdenum-iron protein alpha chain
+289376.B5YH17_THEYD	nifD	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	nifD	Nitrogenase component 1 type Oxidoreductase
+289376.B5YH18_THEYD	nifH	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	nifH	The key enzymatic reactions in nitrogen fixation are catalyzed by the nitrogenase complex, which has 2 components the iron protein and the molybdenum-iron protein
+208964.ALGB_PSEAE	algB	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	algB	Bacterial regulatory protein, Fis family
+NP_213061.1	N/A	N/A	N/A	N/A	Sigma-54 interaction domain
+122586.Q9JXT9_NEIMB	msrC	Neisseria_meningitidis	Bacteria_Proteobacteria	msrC	GAF domain protein
+226186.Q8A4I1_BACTN	N/A	Bacteroides_thetaiotaomicron	Bacteria_FCB group	N/A	acetoacetate metabolism regulatory protein AtoC K07714
+224911.NIFH_BRADU	nifH	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	nifH	The key enzymatic reactions in nitrogen fixation are catalyzed by the nitrogenase complex, which has 2 components the iron protein and the molybdenum-iron protein
+83333.FHLA_ECOLI	fhlA	Escherichia_coli	Bacteria_Proteobacteria	fhlA	Formate hydrogen-lyase transcriptional activator
+226186.Q8A6R6_BACTN	msrC	Bacteroides_thetaiotaomicron	Bacteria_FCB group	msrC	Psort location Cytoplasmic, score 8.96
+208964.DCTD_PSEAE	dctD	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	dctD	Flagellar regulatory protein FleQ
+189518.Q8F9P5_LEPIN	norR	Leptospira_interrogans	Bacteria_Spirochaetes	norR	GAF domain
+289376.B5YJY4_THEYD	N/A	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	N/A	phosphorelay signal transduction system
+324602.A9WIJ1_CHLAA	N/A	Chloroflexus_aurantiacus	Bacteria_Terrabacteria group	N/A	SMART protein phosphatase 2C domain protein
+243231.Q74BK0_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	Bacterial regulatory protein, Fis family
+243231.Q74E35_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	response regulator
+243231.Q74A10_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	Bacterial regulatory protein, Fis family
+83333.ATOC_ECOLI	atoC	Escherichia_coli	Bacteria_Proteobacteria	atoC	Member of the two-component regulatory system AtoS AtoC. In the presence of acetoacetate, AtoS AtoC stimulates the expression of the atoDAEB operon, leading to short chain fatty acid catabolism and activation of the poly-(R)-3-hydroxybutyrate (cPHB) biosynthetic pathway. Also induces the operon in response to spermidine. Involved in the regulation of motility and chemotaxis, via transcriptional induction of the flagellar regulon. AtoC acts by binding directly to the promoter region of the target genes. In addition to its role as a transcriptional regulator, functions as a post- translational regulator that inhibits polyamine biosynthesis via regulation of ornithine decarboxylase (ODC)
+243090.Q7UTY7_RHOBA	hsfA	Rhodopirellula_baltica	Bacteria_PVC group	hsfA	Acetoacetate metabolism regulatory protein ATOC
+188937.Q8TP83_METAC	N/A	Methanosarcina_acetivorans	Archaea_Euryarchaeota	N/A	Nitrogenase component 1 type Oxidoreductase
+289376.B5YG95_THEYD	N/A	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	N/A	phosphorelay signal transduction system
+208964.Q9I2A4_PSEAE	N/A	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	N/A	Bacterial regulatory protein, Fis family
+83333.YGEV_ECOLI	ygeV	Escherichia_coli	Bacteria_Proteobacteria	ygeV	transcriptional regulator
+188937.Q8TRG0_METAC	N/A	Methanosarcina_acetivorans	Archaea_Euryarchaeota	N/A	Nitrogenase component 1 type Oxidoreductase
+224911.NIFA_BRADU	nifA	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	nifA	Transcriptional regulator
+224324.O66591_AQUAE	norR	Aquifex_aeolicus	Bacteria_Aquificae	norR	PFAM sigma-54 factor interaction domain-containing protein
+324602.BCHL_CHLAA	chlL	Chloroflexus_aurantiacus	Bacteria_Terrabacteria group	chlL	Component of the dark-operative protochlorophyllide reductase (DPOR) that uses Mg-ATP and reduced ferredoxin to reduce ring D of protochlorophyllide (Pchlide) to form chlorophyllide a (Chlide). This reaction is light-independent. The L component serves as a unique electron donor to the NB-component of the complex, and binds Mg-ATP
+243231.Q74FY2_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	response regulator
+243231.Q74DJ6_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	response regulator
+224324.O66596_AQUAE	N/A	Aquifex_aeolicus	Bacteria_Aquificae	N/A	phosphorelay signal transduction system
+NP_214227.1	norR	N/A	N/A	norR	transcription factor binding
+208964.Q9HVK3_PSEAE	rtcR	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	rtcR	Regulator of RNA terminal phosphate cyclase
+224308.LEVR_BACSU	levR	Bacillus_subtilis	Bacteria_Terrabacteria group	levR	PTS system fructose IIA component
+243090.Q7UK84_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	GAF domain
+208964.Q9I0H3_PSEAE	norR	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	norR	Domain present in phytochromes and cGMP-specific phosphodiesterases.
+208964.Q9HT62_PSEAE	dctD	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	dctD	Bacterial regulatory protein, Fis family
+189518.Q8EXU5_LEPIN	rsbU	Leptospira_interrogans	Bacteria_Spirochaetes	rsbU	COGs COG2208 Serine phosphatase RsbU regulator of sigma subunit
+224324.O67198_AQUAE	N/A	Aquifex_aeolicus	Bacteria_Aquificae	N/A	two component, sigma54 specific, transcriptional regulator, Fis family
+243231.Q74FK9_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	response regulator
+208964.Q9I362_PSEAE	nifA	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	nifA	Domain present in phytochromes and cGMP-specific phosphodiesterases.
+243231.Q74EW8_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	Sigma-54 interaction domain
+289376.B5YJL4_THEYD	N/A	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	N/A	HDOD domain
+243090.Q7UT14_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	Ornithine decarboxylase inhibitor-putative sigma54 transciptional regulator
+224911.H7C7V3_BRADU	N/A	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	N/A	Phosphoenolpyruvate hydrolase-like
+243231.Q746V0_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	response regulator
+289376.B5YK20_THEYD	nla28	Thermodesulfovibrio_yellowstonii	Bacteria_Nitrospirae	nla28	Sigma-54 interaction domain
+324602.A9WJE8_CHLAA	N/A	Chloroflexus_aurantiacus	Bacteria_Terrabacteria group	N/A	histidine kinase A domain protein
+226186.Q8ABU5_BACTN	N/A	Bacteroides_thetaiotaomicron	Bacteria_FCB group	N/A	acetoacetate metabolism regulatory protein AtoC K07714
+224911.HOXA_BRADU	hoxA	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	hoxA	Regulator
+243231.Q74G88_GEOSL	stc	Geobacter_sulfurreducens	Bacteria_Proteobacteria	stc	PFAM sigma-54 factor interaction domain-containing protein
+226186.Q8A9F9_BACTN	N/A	Bacteroides_thetaiotaomicron	Bacteria_FCB group	N/A	Sigma-54 interaction domain protein
+188937.CFBC_METAC	nifH	Methanosarcina_acetivorans	Archaea_Euryarchaeota	nifH	4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+NP_213762.1	N/A	N/A	N/A	N/A	two component, sigma54 specific, transcriptional regulator, Fis family
+208964.Q9I2F9_PSEAE	zraR	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	zraR	Bacterial regulatory protein, Fis family
+190304.Q8RE11_FUSNN	N/A	Fusobacterium_nucleatum	Bacteria_Fusobacteria	N/A	Acetoacetate metabolism regulatory protein atoC
+83333.DHAR_ECOLI	dhaR	Escherichia_coli	Bacteria_Proteobacteria	dhaR	PTS-dependent dihydroxyacetone kinase operon regulatory protein
+208964.Q9I4E2_PSEAE	N/A	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	N/A	Bacterial regulatory protein, Fis family
+83333.NTRC_ECOLI	glnG	Escherichia_coli	Bacteria_Proteobacteria	glnG	Member of the two-component regulatory system NtrB NtrC, which controls expression of the nitrogen-regulated (ntr) genes in response to nitrogen limitation. Phosphorylated NtrC binds directly to DNA and stimulates the formation of open promoter- sigma54-RNA polymerase complexes
+243090.Q7UVW6_RHOBA	nla6	Rhodopirellula_baltica	Bacteria_PVC group	nla6	COG2204 Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains
+243231.Q74DR5_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	response regulator
+243090.Q7UVC1_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	COG2204 Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains
+243231.Q749I9_GEOSL	N/A	Geobacter_sulfurreducens	Bacteria_Proteobacteria	N/A	response regulator
+243231.Q74AB5_GEOSL	nifA	Geobacter_sulfurreducens	Bacteria_Proteobacteria	nifA	Sensor sigma-54-dependent transcriptional regulator, GAF and GAF domain-containing
+85962.O25408_HELPY	flgR	Helicobacter_pylori	Bacteria_Proteobacteria	flgR	COG2204 Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains
+226186.Q89ZK2_BACTN	nifA	Bacteroides_thetaiotaomicron	Bacteria_FCB group	nifA	Sigma-54 interaction domain protein
+188937.Q8TQB7_METAC	N/A	Methanosarcina_acetivorans	Archaea_Euryarchaeota	N/A	Nitrogenase component 1 type Oxidoreductase
+208964.Q9I4N3_PSEAE	fleR	Pseudomonas_aeruginosa	Bacteria_Proteobacteria	fleR	Bacterial regulatory protein, Fis family
+226186.Q8A166_BACTN	N/A	Bacteroides_thetaiotaomicron	Bacteria_FCB group	N/A	COG2204 Response regulator containing CheY-like receiver AAA-type ATPase and DNA-binding domains
+224911.Q89LQ3_BRADU	ntrX	Bradyrhizobium_diazoefficiens	Bacteria_Proteobacteria	ntrX	Sigma-54 interaction domain
+243090.Q7UJ61_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	COG2204 Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains
+243090.Q7UF62_RHOBA	nla6	Rhodopirellula_baltica	Bacteria_PVC group	nla6	response regulator
+100226.Q8CK65_STRCO	N/A	Streptomyces_coelicolor	Bacteria_Terrabacteria group	N/A	transcriptional regulator
+226186.Q8A7J5_BACTN	N/A	Bacteroides_thetaiotaomicron	Bacteria_FCB group	N/A	acetoacetate metabolism regulatory protein AtoC K07714
+226186.Q8A7Q5_BACTN	N/A	Bacteroides_thetaiotaomicron	Bacteria_FCB group	N/A	COG2204 Response regulator containing CheY-like receiver AAA-type ATPase and DNA-binding domains
+243090.Q7U393_RHOBA	N/A	Rhodopirellula_baltica	Bacteria_PVC group	N/A	Bacterial regulatory protein, Fis family
