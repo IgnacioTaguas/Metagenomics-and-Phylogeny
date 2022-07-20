@@ -1,5 +1,5 @@
 # Metagenomics-project
-In-depth genomic exploration of the ecosystem of a hot spring located in Iceland, in which episodes of high temperature (close to 90º) occur coinciding with regular activities in a nearby volcano.
+In-depth genomic exploration of the ecosystem of a hot spring located in Iceland, in which episodes of high temperature (close to 90º) occur coinciding with regular activities in a nearby volcano. The file Genomics.pdf has a written description of the project.
 
 The analysis has three steps:
   - Metagenomics: the results from shotgun sequencing (produced by Illuma paired-end sequencing) are in FASTQ format; the quality of the reads is analyzed, and the relative abundance of each organism under each condition calculated.
